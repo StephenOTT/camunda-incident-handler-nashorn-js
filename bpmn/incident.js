@@ -7,6 +7,14 @@ function handleIncident(){
 
 }
 
+function resolveIncident(){
+  system.out.println("This is executed when the incident was resolved");
+}
+
+function deleteIncident(){
+  system.out.println("This is executed when the incident was deleted");
+}
+
 
 
 // incidentContext.getProcessDefinitionId()
