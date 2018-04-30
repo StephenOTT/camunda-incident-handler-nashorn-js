@@ -64,7 +64,7 @@ Example:
 <plugin>
     <class>io.digitalstate.camunda.NashornIncidentHandlerProcessEnginePlugin</class>
     <properties>
-        <property name="incidentTypes">failedJob, failedExternalTask,incidentType2,incidentType3</property>
+        <property name="incidentTypes">failedJob,failedExternalTask,incidentType2,incidentType3</property>
     </properties>
 </plugin>
 
