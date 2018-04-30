@@ -22,9 +22,9 @@ This function names match the names that are in Camunda's `DefaultIncidentHandle
 
 # Screenshots
 
-[bpmn process](./docs/incidenthandler.png)
-[Pool config 1](./docs/bpmn_pool1.png)
-[Pool config 2](./docs/bpmn_pool2.png)
+![bpmn process](./docs/incidenthandler.png)
+![Pool config 1](./docs/bpmn_pool1.png)
+![Pool config 2](./docs/bpmn_pool2.png)
 
 # Setup and Usage
 
