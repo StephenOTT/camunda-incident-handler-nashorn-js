@@ -1,4 +1,4 @@
-# Custom Incident Handlers Incident Handler 
+# Camunda BPM Javascript/Nashorn Incident Handler:
 
 A Camunda BPM Process Engine Plugin that provides a generic Incident Handler that will execute Nashorn Javascript scripts that are defined as Camunda Extension Properties in the BPMN process.
 
