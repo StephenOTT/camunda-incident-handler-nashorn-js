@@ -93,6 +93,27 @@ A script is evaluated/compiled before the specific function is called.  If you i
 1. Extra logging when the script executes
 1. Loading common variables that are used throughout the script/not just within the scope of the functions
 
+### Example Incident Handler Javascript file
+
+Example file: incident.js
+
+```js
+var system = java.lang.System
+
+function handleIncident(){
+  system.out.println("This is a handleIncident Function Message: ");
+  system.out.println(incidentContext.getProcessDefinitionId())
+  system.out.println(incidentMessage)
+}
+
+function resolveIncident(){
+  system.out.println("This is executed when the incident was resolved");
+}
+
+function deleteIncident(){
+  system.out.println("This is executed when the incident was deleted");
+}
+```
 
 ## Setup BPMN Extension properties
 
